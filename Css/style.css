@@ -1,0 +1,441 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'inter';
+}
+.nav-link{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px; 
+}
+.bur{
+    color: yellow;
+    font-weight: 800;
+    font-size: 30px;
+}
+.navbar-nav{
+    margin-left:10em;
+}
+.com{
+    color: rgb(31, 25, 25);
+    font-size: 30px;
+    font-weight: 800;
+}
+.carousel{
+   max-width: 1440px;
+   /* margin-left: -10px;
+   margin-right: -10px; */
+}
+#first{
+    padding-top: 8em;
+    background: linear-gradient(rgba(0,10,30,0.99), rgba(0, 0, 0, 0.4)), url("../Image/Rectangle\ 18-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 602px;
+}
+#first h1{
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+#first p{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+    font-weight: 500;
+    color: white;
+    line-height: 51px;
+    margin: 10px;
+}
+#first a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: yellow;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+}
+#second{
+    height: 603px;
+    padding-top: 8em;
+    background: linear-gradient(rgba(0,10,30,0.99), rgba(0, 0, 0, 0.4)), url("../Image/Rectangle\ 13@2x.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#second h1{
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase; 
+    margin: 10px;
+}
+#second p{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+    font-weight: 500;
+    color: white;
+    line-height: 51px;
+    margin: 10px;
+}
+#second a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: yellow;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+}
+#third{
+    height: 603px;
+    padding-top: 8em;
+    background: linear-gradient(rgba(0,10,30,0.99), rgba(0, 0, 0, 0.4)), url("../Image/Usa-mansion.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#third h1{
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase; 
+    margin: 10px
+}
+#third p{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+    font-weight: 500;
+    color: white;
+    line-height: 51px;
+    margin: 10px;
+}
+#third a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: yellow;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+}
+#dots{
+  display: none;
+}
+.alt{
+    height: 350px;
+    width: 400px;
+    /* background: url("../Image/Rectangle 18-1.png"); */
+}
+.page-2{
+    height: 402px;
+}
+.best h2{
+    font-weight: 700;
+}
+.best p{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 35px;
+  color: gray;
+  margin-top: 10px;
+}
+.best a{
+    color: gray;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: yellow;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+}
+.service{
+    height: 602px;
+    max-width: 1400px;
+    padding-top: 6em;
+    margin-bottom: 40px;
+}
+#bes{
+    height: 300px;
+    background: black;
+    padding-top: 8px;
+    border-radius: 8px;
+  }
+  #bes h3{
+      color: white;
+      font-weight: 700;
+      padding-top: 12px;
+  }
+  #bes p{
+      margin: 10px;
+      color: rgb(128, 128, 128);
+      font-weight: 500;
+      padding-bottom: 10px;
+  }
+  #bes a{
+      padding: 10px 19px; 
+      background: yellow;
+      color: red;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      border-radius: 10px;
+  }
+#dur{
+    height: 300px;
+    background: black;
+    padding-top: 8px;
+    border-radius: 8px;
+  }
+  #dur h3{
+      color: white;
+      font-weight: 700;
+      padding-top: 12px;
+  }
+  #dur p{
+      margin: 10px;
+      color: gray;
+      font-weight: 500;
+      padding-bottom: 10px;
+  }
+  #dur a{
+      padding: 10px 19px; 
+      background: yellow;
+      color: red;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      border-radius: 10px;
+  }
+#int{
+  height: 300px;
+  background: black;
+  padding-top: 8px;
+  border-radius: 8px;
+}
+#int h3{
+    color: white;
+    font-weight: 700;
+    padding-top: 12px;
+}
+#int p{
+    margin: 10px;
+    color: gray;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+#int a{
+    padding: 10px 19px; 
+    background: yellow;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.card-footer{
+    padding: 10px 18px;
+    background: darkorange;
+}
+.card-footer a{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+.page-3 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: gray;
+}
+.page-4 h1{
+    padding-top: 3em;
+    font-size: 50px;
+    font-weight: 700;
+    color: gray;
+    text-transform: uppercase;
+}
+.page-3 p{
+    color: grey;
+}
+.page-4 p{
+    color: grey;
+}
+#img-top{
+    height: 400px;
+}
+.card-title{
+    color: darkolivegreen;
+    font-size:32px;
+}
+#card-img{
+    border-radius: 95em;
+    width: 100px;
+    height: auto;
+    margin-left: 70px;
+    box-shadow: 0px 2px 2px 4px white;
+    margin-top: 20px;
+}
+#foot{
+    background: white;
+}
+#crde{
+    height: 200px;
+    box-shadow: 0px 3px 3px 6px gray;
+}
+.kin{
+    font-size: 28px;
+}
+#foot{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 7px;
+   margin-right: 7px;
+}
+.page-5{
+    margin-top: 100px;
+}
+.page-5 h1{
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: gray;
+}
+.contact h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: darkcyan;
+    padding-top: 4em;
+}
+.feeter{
+    height: 130px;
+    margin-top: 40px;
+    padding-top: 2.70em;
+}
+.teet{
+    font-size: 28px;
+    font-weight: 600;
+    outline: red;
+    background: darkgoldenrod;
+    padding: 10px;
+    border-radius: 20px;
+}
+.navbar-toggler{
+    background: yellow;
+}
+.nav-link:hover{
+    background: darkgoldenrod;
+    color: white;
+}
+.navbar{
+    background: yellowgreen;
+}
+
+
+
+@media (max-width: 459px){
+    .bur{
+        font-size:large;
+    }
+    .com{
+        font-size: large;
+    }
+    .nav-link{
+        font-size: small;
+    }
+    .navbar-toggler{
+        background: darkslategrey;
+        font-size: 25px;
+    }
+    .navbar-nav{
+      text-align: center;
+      height:500px;
+      margin-top: 80px;
+      line-height: 40px;
+      margin-right:15em;
+    }
+    #first h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10px;
+    }
+    #first p{
+        font-weight: 400;
+        line-height: 25px;
+        margin: 40px;
+        font-size: 14px;
+    }
+    #second h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10px;
+    }
+    #second p{
+        font-weight: 400;
+        line-height: 25px;
+        margin: 40px;
+        font-size: 14px;
+    }
+    #third h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10px;
+    }
+    #third p{
+        font-weight: 400;
+        line-height: 25px;
+        margin: 40px;
+        font-size: 14px;
+    }
+    #prev{
+        margin-left: 14px;
+        margin-top: 10em;
+    }
+    #next{
+        margin-right: 18px;
+        margin-top: 10em;
+    }
+    .alt{
+        width: 350px;
+    }
+    .page-2{
+        display: block;
+    }
+    .best a{
+        margin-left: 6em;
+    }
+    #system{
+        display: block;
+    }
+    .page-3 h1{
+        font-size: 30px;
+    }
+    .page-4{
+        padding-top: 3em;
+    }
+    .page-4 p{
+        text-align: justify;
+        margin: 15px;
+    }
+}
+.consec{
+    display: block;
+}
+
+
+
+@media (max-width: 290px){
+    .alt{
+        width: 200px;
+    }
+}
