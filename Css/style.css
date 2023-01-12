@@ -243,7 +243,12 @@ footer p{
     color:rgb(66, 231, 94);
     text-shadow:3px white;
 }
-
+    /* .hr{
+        display: none;
+    } */
+.navbar-nav{
+    padding-top: 2em;
+}
 
 
 
@@ -266,6 +271,13 @@ footer p{
     }
     .navbar-nav{
         height: 600px;
+        text-align: center;
+        padding-top: 4em;
+        line-height: 3em;
+    }
+    .nav-link  important{
+       font-weight: 700;
+      
     }
 }
 /* 
